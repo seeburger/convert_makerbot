@@ -1,5 +1,4 @@
 # convert_makerbot - RepRap G-code flavor to .makerbot converter
----
 
 This script will convert RepRap flavored G-code to a .makerbot file, which may be
 printed on a MakerBot 3D Printer via an USB mass storage device.
@@ -27,7 +26,6 @@ firmware version which you were using.
 
 
 ## Requisites
----
 
 - python3
 
@@ -39,7 +37,6 @@ additional python modules:
 
 
 ## Installation
----
 
 Make sure all the requisites are installed. Download the script and place it
 in a location of your choice and make it executable.
@@ -48,7 +45,6 @@ in a location of your choice and make it executable.
 
 
 ## Usage
----
 
 This script is designed to be run as a [Slic3r](http://www.slic3r.org/)
 post-processing script by default. If you intend to use this with any other
@@ -157,14 +153,12 @@ require a change, as those are the default values used by the firmware.
 
 
 ## Known limitations
----
 
 The only limitation that is currently known is that changing the temperature
 mid-print is not possible, as the firmware does not support this.
 
 
 ## License
----
 
 Copyright (C) 2018 seeburger
 
